@@ -1,0 +1,12 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node main.ts",
+  "projectId": "cdk3-cdktf-test-project",
+  "sendCrashReports": "false",
+  "terraformProviders": [
+    "azurerm@~> 3.90.0",
+    "Azure/azapi@~>2.3.0"
+  ],
+  "terraformModules": [],
+  "context": {}
+}
