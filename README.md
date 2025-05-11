@@ -12,12 +12,13 @@ Define resources for Azure LogicApps using CDKTF and deploy using Github actions
 - Resource Group "cdktf-state-rg"
 - Storage Account "cdktfstatesa"
 - Storage Container "tfstate"
+
 [logicapps-iac-cdktf-state](https://github.com/git-vphakala/logicapps-iac-cdktf-state)
 
 # Local development
 - npm install
 - add providers manually (.gen - directory, which you fetch via "cdktf get" if the connection is not blocked)
-- .terraform.d - directory in your home must contain azapi provider (fetch via the above get)
+- .terraform.d - directory in your home must contain azapi and azurerm providers (fetch via the above get)
 - az login
 - in bash terminal: export ARM_SUBSCRIPTION_ID="your subscription id"
 

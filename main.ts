@@ -126,11 +126,15 @@ class LogicAppStack extends TerraformStack {
               },
               {
                 name: 'FUNCTIONS_WORKER_RUNTIME',
-                value: 'node',
+                value: 'dotnet',
+              },
+              {
+                name: 'FUNCTIONS_EXTENSION_VERSION',
+                value: '~4',
               },
               {
                 name: 'WEBSITE_NODE_DEFAULT_VERSION',
-                value: '~18',
+                value: '~20',
               },
             ],
           },
